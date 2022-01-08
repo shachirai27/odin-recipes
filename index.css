@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    background-color: bisque;
+}
+
+h1 {
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
+    font-size: 70px;
+    color: green;
+}
+
+ .menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container div {
+    border: 5px dotted brown;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu-container ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-container li {
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(89, 59, 77, 0.47);
+    color: brown;
+    padding: 20px;
+}
+
+.menu-container li a {
+   font-weight: 700;
+   color: aliceblue;
+}

@@ -1,0 +1,103 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+    color: cadetblue;
+}
+
+h3 {
+    font-family: 'The Nautigal', cursive;
+     font-size: 50px;
+
+}
+
+p {
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.header-image {
+    border: 1px double brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.header-image img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+   
+}
+
+.description {
+    border: 5px double brown;
+}
+
+.description h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+}
+
+.sectionThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid cadetblue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+   
+}
+
+.sectionThree:hover {
+    box-shadow: 5px 8px  #b69292;
+}
+
+.instructions {
+    width: 800px;
+    height: auto;
+}
+
+ul li:hover {
+    font-size: 18px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+ol, ul {
+    line-height: 1.5;
+}
+ol li:hover {
+    font-size: 18px;
+    border: 2px solid black;
+}
+
+.back-button {
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.back-button h3 {
+    font-size: 40px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+  }
+}
+
+
+
